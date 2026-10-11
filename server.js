@@ -9,7 +9,7 @@ const APP_NAME = process.env.APP_NAME || 'My Node App';
 
 // Handles GET requests to / and Sends a response to the client
 app.get('/',(req,res) => {
-    res.send(`Hello World! Welcome------ to ${APP_NAME}`);
+    res.send(`Hello World! Welcom---e------ to ${APP_NAME}`);
 });
 
 
